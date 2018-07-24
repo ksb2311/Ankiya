@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/glitch1.css">
+    <link rel="stylesheet" href="css/cards.css">
 
     <!-- script
     ================================================== -->
@@ -52,7 +53,7 @@
 
         <div class="header-logo">
             <a class="site-logo" href="#home">
-                <img src="images/logo.svg" alt="Homepage">
+                <img src="images/mainlogo.png" style="width: 70%;height: 70%" alt="Homepage">
             </a>
         </div> <!-- end header-logo -->
 
@@ -117,7 +118,7 @@
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/bgimg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="grid-overlay">
             <div></div>
@@ -148,18 +149,18 @@
 
 
 			<div class="home-content__button">
-                    <a href="#about" class="smoothscroll btn btn--primary btn--large">
-                        More About Us
+                    <a href="#contact" class="smoothscroll btn btn--primary btn--large">
+                        Contact
                     </a>
-                    <a href="#contact" class="smoothscroll btn btn--large">
-                        Merchandise
+                     <a href="/" class=" btn btn--large">
+                        Home
                     </a>
                 </div>
 
             </div> <!-- end home-content__main -->
 
             <div class="home-content__scroll">
-                <a href="#about" class="scroll-link smoothscroll">
+                <a href="#product" class="scroll-link smoothscroll">
                     Scroll
                 </a>
             </div>
@@ -190,7 +191,59 @@
     </section> <!-- end s-home -->
 
 
-
+<!-- ============== products ================= -->
+<section id="product">
+<main class="grid">
+  <article>
+    <img src="images/products/tshirt-plane.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Ankiya T-Shirt (black)</h3>
+      <p>T-shirt with Ankiya Logo</p>
+      <button>Buy Now</button>
+    </div>
+  </article>
+  <article>
+    <img src="images/products/tshirt-plane.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Ankiya T-Shirt (black)</h3>
+      <p>T-shirt with Ankiya Logo</p>
+      <button>Buy Now</button>
+    </div>
+  </article>
+  <article>
+    <img src="images/products/tshirt-plane.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Ankiya T-Shirt (black)</h3>
+      <p>T-shirt with Ankiya Logo</p>
+      <button>Buy Now</button>
+    </div>
+  </article>
+  <article>
+    <img src="images/products/tshirt-plane.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Ankiya T-Shirt (black)</h3>
+      <p>T-shirt with Ankiya Logo</p>
+      <button>Buy Now</button>
+    </div>
+  </article>
+  <article>
+    <img src="images/products/tshirt-plane.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Ankiya T-Shirt (black)</h3>
+      <p>T-shirt with Ankiya Logo</p>
+      <button>Buy Now</button>
+    </div>
+  </article>
+  <article>
+    <img src="images/products/tshirt-plane.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Ankiya T-Shirt (black)</h3>
+      <p>T-shirt with Ankiya Logo</p>
+      <button>Buy Now</button>
+    </div>
+  </article>
+</main>
+</section>
 
     <!-- footer
     ================================================== -->

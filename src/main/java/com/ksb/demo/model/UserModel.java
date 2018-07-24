@@ -1,4 +1,4 @@
-package com.ksb.model;
+package com.ksb.demo.model;
 
 public class UserModel {
 

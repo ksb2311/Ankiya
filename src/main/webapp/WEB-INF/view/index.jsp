@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/glitch1.css">
 
+
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
@@ -52,7 +53,7 @@
 
         <div class="header-logo">
             <a class="site-logo" href="#home">
-                <img src="images/logo.svg" alt="Homepage">
+                <img src="images/mainlogo.png" style="width: 70%;height: 70%" alt="Homepage">
             </a>
         </div> <!-- end header-logo -->
 
@@ -117,7 +118,7 @@
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/bgimg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="grid-overlay">
             <div></div>
@@ -138,7 +139,7 @@
                 </h3>
 
                 <div class="home-content__video">
-                    <a class="video-link" href="" data-lity>
+                    <a class="video-link" href="#" data-lity>
                         <span class="video-icon"></span><br>
                         <span class="video-text">Watch Trailer</span>
                     </a>
@@ -151,7 +152,7 @@
                     <a href="#about" class="smoothscroll btn btn--primary btn--large">
                         More About Us
                     </a>
-                    <a href="#contact" class="smoothscroll btn btn--large">
+                    <a href="merchandise" class="btn btn--large">
                         Merchandise
                     </a>
                 </div>
